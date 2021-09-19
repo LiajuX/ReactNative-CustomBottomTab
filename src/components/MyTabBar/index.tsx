@@ -48,7 +48,7 @@ export function MyTabBar({
 
         return (
           <TabButton
-            key={options.title}
+            key={`${options.title}${index}`}
             accessibilityRole="button"
             accessibilityState={isFocused ? { selected: true } : {}}
             accessibilityLabel={options.tabBarAccessibilityLabel}
