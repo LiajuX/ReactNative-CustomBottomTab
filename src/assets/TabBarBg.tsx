@@ -12,7 +12,11 @@ export function TabBarBg(props: SvgProps) {
       height={64}
       viewBox="0 0 414 62"
       fill="none"
-      style={{ position: 'absolute', }}
+      style={{ 
+        position: 'absolute', 
+        bottom: 0,
+        zIndex: 4,
+      }}
       {...props}
     >
       <Path

@@ -20,24 +20,5 @@ export const Container = styled(RectButton)<ContainerProps>`
 
   background-color: ${({ color }) => color};
 
-  z-index: 5;
-`;
-
-export const ScanButtonContainer = styled.View`
-  align-items: center;
-  justify-content: center;
-
-  width: 62px;
-  height: 62px;
-  border-radius: 31px;
-
-  background-color: ${({ theme }) => theme.colors.background};
-`;
-
-export const ScanButton = styled.View`
-  width: 48px;
-  height: 48px;
-  border-radius: 24px;
-
-  background-color: ${({ theme }) => theme.colors.attention};
+  z-index: 10;
 `;
